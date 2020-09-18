@@ -1,4 +1,4 @@
-# Paper Plugin API
+# CraftLifePlugin
 
 [![](https://jitpack.io/v/Brun0XP/PaperPluginAPI.svg)](https://jitpack.io/#Brun0XP/PaperPluginAPI)
 [![GitHub followers](https://img.shields.io/github/followers/Brun0XP?label=Follow%20Brun0XP&style=social)](https://github.com/Brun0XP)
@@ -26,9 +26,9 @@ Add Paper Plugin API to your project
 
 <dependencies>
   <dependency>
-    <groupId>com.github.Brun0XP</groupId>
-    <artifactId>PaperPluginAPI</artifactId>
-    <version>v1.0.0</version>
+    <groupId>com.github.CraftLife</groupId>
+    <artifactId>CraftLifePlugin</artifactId>
+    <version>v2.0.0</version>
     <scope>provided</scope>
   </dependency>
 </dependencies>
