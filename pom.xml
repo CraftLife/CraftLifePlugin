@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.brun0xp</groupId>
-    <artifactId>paperpluginapi</artifactId>
-    <version>1.2.1</version>
+    <groupId>br.com.craftlife</groupId>
+    <artifactId>core</artifactId>
+    <version>2.0.0</version>
     <packaging>jar</packaging>
 
-    <name>PaperPluginAPI</name>
+    <name>CraftLife</name>
 
     <description>An api for creating plugins for minecraft, contains frameworks like aikar acf and inventory flamework
     </description>
@@ -21,7 +21,7 @@
 
     <build>
         <defaultGoal>clean install</defaultGoal>
-        <finalName>PaperPluginAPI</finalName>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -41,19 +41,19 @@
                     <relocations>
                         <relocation>
                             <pattern>co.aikar.commands</pattern>
-                            <shadedPattern>com.github.brun0xp.paperpluginapi.acf</shadedPattern>
+                            <shadedPattern>br.com.craftlife.core.acf</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>co.aikar.locales</pattern>
-                            <shadedPattern>com.github.brun0xp.paperpluginapi.locales</shadedPattern>
+                            <shadedPattern>br.com.craftlife.core.locales</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.github.stefvanschie.inventoryframework</pattern>
-                            <shadedPattern>com.github.brun0xp.paperpluginapi.inventoryframework</shadedPattern>
+                            <shadedPattern>br.com.craftlife.core.inventoryframework</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>de.themoep.minedown</pattern>
-                            <shadedPattern>com.github.brun0xp.paperpluginapi.libraries.minedown</shadedPattern>
+                            <shadedPattern>br.com.craftlife.core.minedown</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
@@ -101,7 +101,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <version>1.13.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -113,7 +113,7 @@
         <dependency>
             <groupId>com.github.stefvanschie.inventoryframework</groupId>
             <artifactId>IF</artifactId>
-            <version>0.5.18</version>
+            <version>0.7.2</version>
             <optional>true</optional>
         </dependency>
         <dependency>

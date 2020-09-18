@@ -1,4 +1,4 @@
-package com.github.brun0xp.paperpluginapi.resource;
+package br.com.craftlife.core.resource;
 
 import com.google.common.base.Charsets;
 import org.bukkit.configuration.file.FileConfiguration;
