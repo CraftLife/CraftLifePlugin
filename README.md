@@ -1,6 +1,6 @@
 # CraftLifePlugin
 
-[![](https://jitpack.io/v/Brun0XP/PaperPluginAPI.svg)](https://jitpack.io/#Brun0XP/PaperPluginAPI)
+[![](https://jitpack.io/v/CraftLife/CraftLifePlugin.svg)](https://jitpack.io/#CraftLife/CraftLifePlugin)
 [![GitHub followers](https://img.shields.io/github/followers/Brun0XP?label=Follow%20Brun0XP&style=social)](https://github.com/Brun0XP)
 
 > A plugin that joins flameworks in one place and in the future some more features to facilitate the development of simple plugins
