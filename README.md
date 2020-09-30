@@ -1,6 +1,6 @@
-# CraftLifePlugin
+# CraftlifeCore
 
-[![](https://jitpack.io/v/CraftLife/CraftLifePlugin.svg)](https://jitpack.io/#CraftLife/CraftLifePlugin)
+[![](https://jitpack.io/v/CraftLife/CraftlifeCore.svg)](https://jitpack.io/#CraftLife/CraftlifeCore)
 [![GitHub followers](https://img.shields.io/github/followers/Brun0XP?label=Follow%20Brun0XP&style=social)](https://github.com/Brun0XP)
 
 > A plugin that joins flameworks in one place and in the future some more features to facilitate the development of simple plugins
@@ -14,7 +14,7 @@
 
 ## Setup
 
-Add Paper Plugin API to your project
+Add CraftlifeCore to your project
 
 ```xml
 <repositories>
@@ -27,8 +27,8 @@ Add Paper Plugin API to your project
 <dependencies>
   <dependency>
     <groupId>com.github.CraftLife</groupId>
-    <artifactId>CraftLifePlugin</artifactId>
-    <version>v2.0.0</version>
+    <artifactId>CraftlifeCore</artifactId>
+    <version>2.2.0</version>
     <scope>provided</scope>
   </dependency>
 </dependencies>

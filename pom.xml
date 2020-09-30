@@ -6,10 +6,10 @@
 
     <groupId>br.com.craftlife</groupId>
     <artifactId>core</artifactId>
-    <version>2.0.0</version>
+    <version>2.2.0</version>
     <packaging>jar</packaging>
 
-    <name>CraftLife</name>
+    <name>CraftlifeCore</name>
 
     <description>An api for creating plugins for minecraft, contains frameworks like aikar acf and inventory flamework
     </description>
@@ -121,6 +121,12 @@
             <artifactId>minedown</artifactId>
             <version>1.6.1-SNAPSHOT</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
