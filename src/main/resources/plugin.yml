@@ -1,4 +1,4 @@
-name: CraftLife
+name: CraftlifeCore
 version: ${project.version}
 main: br.com.craftlife.core.CraftLife
 authors: [Brun0XP]
